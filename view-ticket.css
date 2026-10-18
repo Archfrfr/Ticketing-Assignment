@@ -1,0 +1,53 @@
+body
+    {
+        margin-top: 135px;
+        font-family: Verdana, Arial, Tahoma, sans-serif;
+        background-color: rgb(9, 88, 33);
+        color: white;
+    }
+.container
+    {
+        background-color: rgb(35, 36, 37);
+        min-width: 700px;
+        min-height: 500px;
+        border-radius: 15px;
+        justify-self: center;
+        font-weight: bold;
+        font-size: 20px;
+        box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.4);
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .no-tickets
+        {
+            margin-top: 60px;
+            text-align: center;
+        }
+    table
+        {
+            border-spacing: 0 0px;
+        }
+    .view-title
+        {
+            font-size: x-large;
+            padding-top: 30px;
+            margin-bottom: 35px;
+            padding-bottom: 5px;
+            justify-self: center;
+            border-bottom:solid;
+        }
+    th
+        {
+            text-align: left;
+            padding-right: 5px;
+            padding-left: 5px;
+            margin-bottom: 15px;
+        }
+    td
+        {
+            border-color: rgb(65, 65, 65);
+            max-width: 350px;
+            padding-right: 5px;
+            padding-left: 5px;
+            padding-top: 25px;
+        }

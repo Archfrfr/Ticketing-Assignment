@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="user-css\register-page.css">
+    <title>User Register</title>
+</head>
+<body>
+    <form action='register.php' method='post'>
+    
+        <div class='form-title'>
+            <img class='epic-games-logo' src='images\Epic_Games_logo.svg.webp'>
+            <p>Sign Up</p>
+        </div>
+        
+        <div class='details'>
+            <div class='username'>
+                <input type ='text' required class='uname-input' name ='username'  placeholder='Username' pattern="[A-Za-z0-9 ]{8, }"/>
+            </div>
+                
+            <div class='password'>
+                <input type='password' required class='pass-input' name ='passWord' placeholder='Password' pattern="[A-Za-z0-9 ]+">
+            </div>
+            <div class='Date of birth'>
+                <input type='date' required class='date-input' name ='dob' placeholder='Password'>
+            </div>
+            <div class='E-mail'>
+                <input type='email' required class='email-input' name ='email' placeholder='xxxxxx@gmail.com'>
+            </div>
+                
+        </div>
+
+        <div class='submit-details'>
+            <input type='submit' class='submit' value='Sign Up'>
+        </div>
+
+        <div class='sign-in'>
+            <p>Already have an account? <a href='user-login.php'>sign in</a> </p>
+        </div>
+
+        
+    </form>
+    
+</body>
+</html>

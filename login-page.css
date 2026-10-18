@@ -1,0 +1,98 @@
+/*<!--NAME: ARTJOMS BOBROVS CODE: C00308488 COURSE: IT MANAGEMENT DATE: 12/03/2026 TASK1-->*/
+body
+    {
+        margin-top: 50px;
+        font-family: Arial, Tahoma, sans-serif;
+        background-color: rgb(15, 15, 15);
+        color: white;
+    }
+.support-image
+    {
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        max-width: 600px;
+    }
+.epic-games
+    {
+        height: 50px;
+        position:absolute;
+        margin-left: -70px;
+        margin-top: 25px;
+    }
+form /*controls the look of the form*/
+    {
+        background-color: rgb(24, 24, 24);
+        min-width: 600px;
+        min-height: 800px;
+        border-radius: 15px;
+        justify-self: center;
+        font-weight: bold;
+        font-size: 20px;
+        box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.4);
+    }
+.Sign-in
+        {
+            font-size: 45px;
+            padding-top: 25px;
+            justify-self: center;
+        }
+    .credentials
+        {
+            padding-top: 50px;
+        }
+        .username, .password
+            {
+                margin-left: 50px;
+                margin-bottom: 25px;
+            }
+        .uname-input, .pass-input
+            {
+                border-radius: 3px;
+                font-size: large;
+                padding: 5px;
+                border: none;
+            }
+.submit-creds
+        {
+            margin-top: 40px;
+            text-align: center;
+            margin-bottom: 15px;
+        }
+.submit  
+        {
+            background-color: rgb(0, 68, 21);
+            color: white;
+            font-weight: bold;
+            font-size: 18px;
+            line-height: 25px;
+            border: none;
+            height: 50px;
+            width: 110px;
+            border-radius: 25px;
+            margin: auto;
+            transition: 0.2s;
+        }
+        .submit:hover
+            {
+                background-color: rgb(44, 155, 77);
+                cursor: pointer;
+            }
+        .submit:active
+            {
+                background-color: rgb(57, 184, 95);
+                cursor: pointer;
+            }
+.register
+    {
+        margin-top: 70px;
+        font-size:medium;
+        text-align: center;
+    }
+.register-button
+    {
+        color: green;
+    }
+    .register-button:hover
+        {
+            color: rgb(0, 168, 0);
+        }

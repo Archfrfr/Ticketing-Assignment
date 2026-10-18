@@ -1,0 +1,83 @@
+body
+    {
+        margin-top: 135px;
+        font-family: Verdana, Arial, Tahoma, sans-serif;
+        background-color: rgb(9, 88, 33);
+        color: white;
+    }
+form
+    {
+        background-color: rgb(35, 36, 37);
+        min-width: 600px;
+        min-height: 600px;
+        border-radius: 15px;
+        justify-self: center;
+        font-weight: bold;
+        font-size: 20px;
+        box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.4);
+    }
+    .form-title
+        {
+            font-size: x-large;
+            padding-top: 30px;
+            margin-bottom: 25px;
+            padding-bottom: 5px;
+            justify-self: center;
+            border-bottom:solid;
+        }
+    .details
+        {
+            padding-top: 70px;
+        }
+    .ticket-subject, .reason, .severity
+        {
+            margin-bottom: 25px;
+            display: flex;
+            justify-content: space-between;
+            padding-left: 100px;
+            padding-right: 50px;
+        }
+    textarea
+        {
+            resize: none;
+        }
+    .subject, .reason-input
+        {
+            padding: 0;
+            width: 248px;
+        }
+    .dropdown
+        {
+            font-size: 15px;
+            
+        }
+.submit-details
+        {
+            margin-top: 63px;
+            text-align: center;
+        }
+.submit  
+        {
+            background-color: rgb(9, 88, 33);
+            color: white;
+            font-weight: bold;
+            font-size: 18px;
+            border: none;
+            min-width: 140px;
+            height: 50px;
+            border-radius: 25px;
+            margin-right: 10px;
+            margin-left: 10px;
+
+            transition: 0.2s;
+        }
+        .submit:hover
+            {
+                background-color: rgb(44, 155, 77);
+                cursor: pointer;
+            }
+        .submit:active
+            {
+                background-color: rgb(57, 184, 95);
+                cursor: pointer;
+            }

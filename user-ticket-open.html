@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="user-css\open-ticket.css">
+    <link rel="stylesheet" href="user-css\nav_sidebar.css">
+    <title>User ticket Page</title>
+</head>
+    <style>
+        
+    </style>
+<body>
+
+    <div class="navigation-bar">
+        <div class="left-side">
+            <img class="epic-games-logo" src="images\Epic_Games_logo.svg.webp">
+            <p class="epic-games-text">Epic Games Support</p>
+        </div>
+        <div>
+            <button><a href="user-logout.php" class="logout-link">Logout</a></button>
+        </div>
+    </div>
+
+    <div class="side-bar">
+        <button class="open-ticket"><a href="user-ticket-open.html">Open Ticket</a></button>
+        <button class="view-ticket"><a href="user-ticket-view.php">View Ticket</a></button>
+        <button class="close-ticket"><a href="user-ticket-close.php">Close Ticket</a></button>
+    </div>
+    
+    <form action="user-insert.php" method="post">
+
+        <div class="form-title">
+            Epic Games Support Ticket 
+        </div>
+        
+        <div class="details">
+                
+            <div class="ticket-subject">
+                <label>Subject</label>
+                <input name="subject" class="subject" pattern="[A-Za-z ]+"/>
+            </div>
+
+            <div class="reason">
+                <label>Issue</label>
+                <textarea name="reason" class="reason-input" rows="5" required ></textarea>
+            </div>
+
+            <div class="severity">
+                <label for="dropdown">severity</label>
+                <select class="dropdown" name="severity" required><!--creates a drop down menu with the following options-->
+                    <option value="Low">Low</option>
+                    <option value="Medium">Medium</option>
+                    <option value="High">High</option>
+                </select>
+            </div>
+
+        </div>
+
+        <div class="submit-details">
+            <input type="submit" class="submit" value="Open Ticket">
+        </div>
+        </div>
+    </form>
+</body>
+</html>

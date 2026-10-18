@@ -1,0 +1,46 @@
+.navigation-bar
+    {
+        background-color: rgb(24, 25, 26);
+        position: fixed;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 100px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 24px;
+        font-weight: bold;
+    }
+    .epic-games-logo
+        {
+            height: 62px;
+            margin-left: 52px;
+            margin-right: 40px;
+        }
+    .left-side
+        {
+            display: flex;
+        }
+    .logout-link
+        {
+            text-decoration: none;
+            font-size: 18px;
+            margin-right: 100px;
+            padding: 10px 15px 10px 15px;
+            background-color: rgb(44, 44, 44);
+            border-radius: 7px;
+            color: white;
+        }
+.side-bar
+    {
+        position: fixed;
+        left: 0;
+        top: 100px;
+        bottom: 0;
+        background-color: rgb(24, 25, 26);
+        width: 150px;
+    }
+    
